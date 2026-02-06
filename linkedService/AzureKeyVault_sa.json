@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVault_sa",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://healthcareonprem-kv.vault.azure.net/"
+		}
+	}
+}
