@@ -1,0 +1,18 @@
+{
+	"name": "ADLS_LS",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://keeplearningsa.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault_sa",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "healthcareSA-access-key"
+			}
+		}
+	}
+}
